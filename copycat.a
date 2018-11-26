@@ -16,6 +16,7 @@ start:		cli
 		xor ax, ax
 		mov ds, ax
 		call clrScr
+		
 getkey:		xor ah, ah
 		int 0x16
 		mov ah, 0x07
